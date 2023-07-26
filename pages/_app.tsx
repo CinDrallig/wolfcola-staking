@@ -13,7 +13,8 @@ const activeChain = "Pulsechain";
 function MyApp({ Component, pageProps }: AppProps) {
   return (
    <ThirdwebProvider
-      activeChain={activeChain}>
+      activeChain={activeChain}
+      clientId="fb5b78b67cf8fd462d6adb08086cc98b">
       <ChakraProvider>
         <Navbar />
         <Component {...pageProps} />
