@@ -12,8 +12,7 @@ import { ThirdwebProvider, useContract } from "@thirdweb-dev/react";
 function MyApp({ Component, pageProps }: AppProps) {
   return (
    <ThirdwebProvider
-      activeChain={Pulsechain}
-      clientId="fb5b78b67cf8fd462d6adb08086cc98b">
+      activeChain={Pulsechain}>
       <ChakraProvider>
         <Navbar />
         <Component {...pageProps} />
