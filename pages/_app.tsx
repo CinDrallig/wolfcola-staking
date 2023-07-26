@@ -2,6 +2,7 @@ import type { AppProps } from "next/app";
 import { ThirdwebProvider } from "@thirdweb-dev/react";
 import { ChakraProvider } from "@chakra-ui/react";
 import Navbar from "../components/Navbar";
+import { ThirdwebSDK } from "@thirdweb-dev/sdk";
 import { Pulsechain } from "@thirdweb-dev/chains";
 
 const sdk = new ThirdwebSDK("Pulsechain", {
