@@ -9,7 +9,7 @@ function App() {
   return (
     <ThirdwebProvider 
       activeChain={ Pulsechain } 
-      clientId="YOUR_CLIENT_ID" // You can get a client id from dashboard settings
+      clientId="fb5b78b67cf8fd462d6adb08086cc98b" // You can get a client id from dashboard settings
     >
       <Component />
     </ThirdwebProvider>
