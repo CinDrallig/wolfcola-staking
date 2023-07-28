@@ -4,7 +4,6 @@ import { ChakraProvider } from "@chakra-ui/react";
 import Navbar from "../components/Navbar";
 import { ThirdwebSDK } from "@thirdweb-dev/sdk";
 import { Pulsechain } from "@thirdweb-dev/chains";
-import { ThirdwebProvider, useContract } from "@thirdweb-dev/react";
 
 const sdk = new ThirdwebSDK(Pulsechain, {
   clientId: "fb5b78b67cf8fd462d6adb08086cc98b",
